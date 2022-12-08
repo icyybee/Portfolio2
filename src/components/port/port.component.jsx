@@ -56,7 +56,7 @@ const Portfolio = () => {
             img: Work1,
             name: "Portfolio",
             desc: "Personal portfolio website designed and coded by me using React and SASS",
-            link: "https://merry-figolla-7c4cda.netlify.app"
+            link: "https://dreamy-bubblegum-7534db.netlify.app/"
         },
     ]
     
