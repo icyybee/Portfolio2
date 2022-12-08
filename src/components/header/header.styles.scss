@@ -1,0 +1,85 @@
+@import '../../index.scss';
+
+.header {
+    height: 80vh;
+    margin: 3rem;
+    overflow: hidden;
+
+    @media (max-width: $bp-largest) {
+        height: 70vh;
+    }
+
+    @media (max-width:$bp-smallest) {
+        margin: 2rem;
+    }
+
+    &__container {
+        height: 100%;
+        position: relative;
+
+        @media (max-width: $bp-largest) {
+            height: 90%;;
+        }   
+    }
+    
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .logo {
+            font-size: 3.5rem;
+            font-weight: 600;
+            
+            & a {
+                color: $color-grey-light-3;
+                text-decoration: none;
+            }
+             
+            & a span {
+                color: $color-primary;
+            }
+        }
+    }
+
+    &__body {
+        padding-top: 10rem;
+        text-align: center;
+
+        & h1 {
+            color: $color-primary;
+        }
+
+        & .scroll {
+            position: absolute;
+            right: 3rem;
+            bottom: 5rem;
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+            font-weight: 400;
+            font-size: 1.5rem;
+            transition: all 400ms ease;
+
+            @media (max-width:$bp-medium) {
+                display: none;
+            }
+            
+            & a {
+                color: $color-primary;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+    
+    &__footer {
+        margin-top: 3rem;
+        display: flex;
+        grid-gap: 1.2rem;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+}

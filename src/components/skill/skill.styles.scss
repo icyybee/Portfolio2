@@ -1,0 +1,39 @@
+@import '../../index.scss';
+
+.skill {
+    margin-top: 8rem;
+
+    @media (max-width:$bp-largest) {
+        margin-top: 5rem;
+    }
+
+    &__card {
+        background:  #5e1328;
+        padding: 2.4rem 5rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: all 400ms ease;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+    & .skills {
+        display: flex;
+        grid-gap: 1rem;
+        gap: 1rem;
+
+        & svg {
+            margin-top: 6px;
+            color: $color-primary;
+        }
+
+        & h4 {
+            font-size: 1.8rem;
+        }
+    }
+}

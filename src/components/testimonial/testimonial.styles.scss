@@ -1,0 +1,61 @@
+@import '../../index.scss';
+
+.testimonial {
+    margin-top: 8rem;
+
+    @media (max-width:$bp-largest) {
+        margin-top: 5rem;
+    }
+
+    &__container {
+        width: 40% !important;
+        padding-bottom: 4rem;
+
+        @media (max-width:$bp-largest) {
+            width: 60% !important;
+        }
+
+        @media (max-width:$bp-small) {
+            width: 90% !important;
+        }
+    }
+
+    &__slide {
+        background-color: #5e1328;
+        text-align: center;
+        border-radius: 2rem;
+        user-select: none;
+    }
+
+    &__card {
+        padding: 2rem;
+
+        & h3 {
+            font-size: 1.7rem;
+        }
+    }
+
+    &__img {
+        width: 4rem;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 0 auto 1rem;
+        border: .4rem solid #eb2f64;
+
+        & img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    & .review {
+        color: $color-white;
+        font-weight: 300;
+        display: block;
+        width: 80%;
+        margin: .8rem auto 0;
+        font-size: 1.8rem;
+    }
+}

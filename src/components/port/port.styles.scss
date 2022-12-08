@@ -1,0 +1,90 @@
+@import '../../index.scss';
+
+.port {
+    margin-top: 8rem;
+
+    @media (max-width:$bp-largest) {
+        margin-top: 5rem;
+    }
+    
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 2.5rem;
+        gap: 2.5rem;
+
+        @media (max-width:$bp-small) {
+            grid-gap: 4rem;
+        }
+    }
+
+    .work {
+        border-radius: 1rem;
+        padding: 1.2rem;
+        overflow: hidden;
+        position: relative;
+
+        @media (max-width:$bp-small) {
+            height: 30rem;
+            padding: 0rem;
+        }
+    
+        & img {
+            width: 100%;
+            border-radius: 1rem;
+            display: block;
+            transition: transform .5s;
+        }
+    
+        &:hover img {
+            transform: scale(1.1);
+        }
+    
+        &:hover .layer{
+            height: 100%;
+        }
+    }
+    
+    .layer {
+        width: 100%;
+        height: 0;
+        background-image: linear-gradient(rgba(0,0,0,.6), $color-primary);
+        border-radius: 1rem;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 4rem;
+        font-size: 1.6rem;
+        flex-direction: column;
+        text-align: center;
+        transition: height .5s;
+
+        @media (max-width:$bp-small) {
+            height: 100%;
+            font-size: 2rem;
+        }
+
+        & h3 {
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+    
+        & a {
+            margin-top: 2rem;
+            color: $color-primary;
+            text-decoration: none;
+            font-size: 1.8rem;
+            line-height: 6rem;
+            background: $color-white;
+            width: 6rem;
+            height: 6rem;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+    
+}

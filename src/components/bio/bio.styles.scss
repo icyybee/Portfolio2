@@ -1,0 +1,138 @@
+@import '../../index.scss';
+
+.bio {
+    margin-top: 5rem;
+
+    @media (max-width: $bp-largest) {
+        margin-top: 2rem;
+    }
+
+    &__head {
+        font-size: 2.8rem;
+        color: $color-white;
+        text-align: center;
+        margin-bottom: 5rem;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: $color-primary;
+            width: 10rem;
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 35% 50%;
+        grid-gap: 15%;
+        gap: 15%;
+
+        @media (max-width:$bp-largest) {
+            grid-template-columns: 1fr;
+            grid-gap: 0;
+            gap: 0;
+        }
+    }
+
+    &__img {
+        position: relative;
+        width: 100%;
+        border-radius: 2rem;
+        display: grid;
+        place-items: center;
+
+        @media (max-width:$bp-largest) {
+            width: 60%;
+            margin: 2rem auto 5rem;
+        }
+        
+        &:hover &--overlay {
+            transform: rotate(0);
+        }
+
+        & img {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+            cursor: pointer;
+            height: 100%;
+        }
+
+        &--overlay {
+            position: absolute;
+            border-radius: 8px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(rgba(0,0,0,.6), $color-primary);
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            transform: rotate(10deg);
+            transition: all 400ms ease;
+         
+            &-text {
+                white-space: nowrap; 
+                color: $color-white;
+                font-size: 4rem;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+
+                & svg {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    &__card {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    &__cards {
+        background: #5e1328;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        transform: all 400ms ease;
+
+        &:hover {
+            background: transparent;
+            border-color: #8d1c3c;
+            cursor: default;
+        }
+
+        & svg {
+            color: $color-primary;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        & h3 {
+            font-size: 1.5rem;
+        }
+
+        & small {
+            font-size: 1.2rem;
+        }
+    }
+
+    & p {
+        margin: 2rem 0 2.6rem;
+        color: $color-grey-light-2;
+        font-size: 1.8rem;
+    }
+}
