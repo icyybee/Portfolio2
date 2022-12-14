@@ -11,7 +11,7 @@ const Bio = () => {
     return (
         <div className="bio" id='bio'>
             <h2 className="bio__head">About Me</h2>
-            <div className="container bio__container">    
+            <div className="container bio__container">
                 <div className="bio__img">
                     <img src={Lappy} alt="bio img" />
                     <div className="bio__img--overlay">
@@ -23,7 +23,7 @@ const Bio = () => {
                         <div className='bio__cards'>
                             <WorkspacePremiumOutlinedIcon />
                             <h3>Experience</h3>
-                            <small>3+ years experience</small>
+                            <small>2+ years experience</small>
                         </div>
                         <div className='bio__cards'>
                             <PeopleOutlinedIcon />
@@ -37,10 +37,10 @@ const Bio = () => {
                         </div>
                     </div>
                     <p className='bio__text'>
-                        I have a passion for coding and challenging myself creatively. I have the skill to bring your ideas and projects to life on the web. I
-                        have experience working with various clients from tech field to health field. When I'm not coding , you
-                        can find me bingewatching kdramas and animes or playing videogames. Thanks for stopping by, check out my
-                        work.
+                        Hello! I am Beatrice Egumandi, a Frontend Developer with a passion for creating visually appealing and user-friendly websites and applications that provide a great user experience.
+                        I am passionate about writing clean, well-structured and functional code. I am also a team player and enjoy working collaboratively on projects with colleagues.
+                        If you're looking for a Frontend Developer who is passionate about building great websites and applications, please don't hesitate to contact me.
+                        I look forward to hearing from you!
                     </p>
                     <a href='#contact' className='btn btn--full'>Contact me</a>
                 </div>

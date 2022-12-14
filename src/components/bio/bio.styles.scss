@@ -60,6 +60,7 @@
             display: block;
             cursor: pointer;
             height: 100%;
+            object-fit: cover;
         }
 
         &--overlay {
@@ -108,11 +109,11 @@
         padding: 2rem;
         text-align: center;
         transform: all 400ms ease;
+        cursor: pointer;
 
         &:hover {
             background: transparent;
             border-color: #8d1c3c;
-            cursor: default;
         }
 
         & svg {

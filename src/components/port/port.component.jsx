@@ -15,7 +15,6 @@ const Portfolio = () => {
             desc: "Real Housing website designed and coded by me using HTML, SASS and JavaScript",
             link: "https://symphonious-raindrop-11a4c9.netlify.app/"
         },
-        
         {
             id: 2,
             img: Work2,
@@ -27,33 +26,26 @@ const Portfolio = () => {
             id: 3,
             img: Work3,
             name: "Capstone",
-            desc: "An E-commerce app built with React, Redux, Hooks, GraphQL, Stripe, Firebase in TypeScript ",
+            desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
             link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
         },
         {
             id: 4,
             img: Work1,
-            name: "MANdiz Honey",
-            desc: "Upscale Honey E-commerce website designed and coded by me using HTML, SASS and JavaScript",
-            link:"https://ornate-lollipop-f291fd.netlify.app"
-        },    
-        {
-            id: 5,
-            img: Work2,
             name: "Fudlist",
             desc: "A Food app landing page website designed and coded by me using HTML, SASS and React",
             link: "https://deluxe-snickerdoodle-ccb584.netlify.app/"
         },
         {
+            id: 5,
+            img: Work2,
+            name: "MANdiz Honey",
+            desc: "Upscale Honey E-commerce website designed and coded by me using HTML, SASS and JavaScript",
+            link:"https://ornate-lollipop-f291fd.netlify.app"
+        },    
+        {
             id: 6,
             img: Work3,
-            name: "Kanban Board",
-            desc: "A note keeping app designed and coded by me using React and SASS",
-            link: "https://symphonious-raindrop-11a4c9.netlify.app/"
-        },
-        {
-            id: 7,
-            img: Work1,
             name: "Portfolio",
             desc: "Personal portfolio website designed and coded by me using React and SASS",
             link: "https://dreamy-bubblegum-7534db.netlify.app/"

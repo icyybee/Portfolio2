@@ -33,10 +33,6 @@ const Skill = () => {
                             <VerifiedOutlinedIcon />
                             <h4>Redux</h4>
                         </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>Typescript</h4>
-                        </div>
                     </div>
                 </div>
             </div>
