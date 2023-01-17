@@ -25,31 +25,31 @@ const Portfolio = () => {
         {
             id: 3,
             img: Work3,
+            name: "Royaute",
+            desc: "An auto rental website built with React and SASS",
+            link: "https://relaxed-meerkat-89f46e.netlify.app/"
+        },
+        {
+            id: 4,
+            img: Work1,
             name: "Capstone",
             desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
             link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
         },
         {
-            id: 4,
-            img: Work1,
+            id: 5,
+            img: Work2,
             name: "Fudlist",
             desc: "A Food app landing page website designed and coded by me using HTML, SASS and React",
             link: "https://deluxe-snickerdoodle-ccb584.netlify.app/"
         },
         {
-            id: 5,
-            img: Work2,
+            id: 6,
+            img: Work3,
             name: "MANdiz Honey",
             desc: "Upscale Honey E-commerce website designed and coded by me using HTML, SASS and JavaScript",
             link:"https://ornate-lollipop-f291fd.netlify.app"
-        },    
-        {
-            id: 6,
-            img: Work3,
-            name: "Portfolio",
-            desc: "Personal portfolio website designed and coded by me using React and SASS",
-            link: "https://dreamy-bubblegum-7534db.netlify.app/"
-        },
+        }
     ]
     
     return (
