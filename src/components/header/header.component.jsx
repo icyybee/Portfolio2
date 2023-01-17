@@ -1,6 +1,6 @@
 import './header.styles.scss';
 
-import Resume from '../../assets/Resume.docx';
+import Resume from '../../assets/Resume.pdf';
 
 const Header = () => {
     return (
