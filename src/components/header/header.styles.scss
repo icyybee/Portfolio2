@@ -6,7 +6,7 @@
     overflow: hidden;
 
     @media (max-width: $bp-largest) {
-        height: 70vh;
+        height: auto;
     }
 
     @media (max-width:$bp-smallest) {

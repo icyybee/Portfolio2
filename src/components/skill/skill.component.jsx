@@ -1,39 +1,34 @@
-import './skill.styles.scss';
+import Marquee from "react-fast-marquee";
 
-import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
+import { skillsData } from "./skill.data";
+import { skillsImage } from "../../utils/skillsImage";
+
+import './skill.styles.scss';
 
 const Skill = () => {
     return (
         <div className='skill' id='skill'>
             <h2 className="skill__head bio__head">My Skills</h2>
-            <div className="container skill__container">
-                <div className='skill__card'>
-                    <div className='skill__list'>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>HTML</h4>
-                        </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>CSS/SASS</h4>
-                        </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>JavaScript</h4>
-                        </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>React JS</h4>
-                        </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>GIT</h4>
-                        </div>
-                        <div className='skills'>
-                            <VerifiedOutlinedIcon />
-                            <h4>Redux</h4>
-                        </div>
-                    </div>
+            <div className="container skill__container skillsContainer">
+                <div className="skill--scroll">
+                    <Marquee
+                        gradient={false}
+                        speed={80}
+                        pauseOnHover={true}
+                        pauseOnClick={true}
+                        delay={0}
+                        play={true}
+                        direction="left"
+                    >
+                        {skillsData.map((skill, id) => (
+                            <div className="skill--box" key={id}>
+                                <img src={skillsImage(skill)} alt={skill} />
+                                <h3 style={{ color: 'pink' }}>
+                                    {skill}
+                                </h3>
+                            </div>
+                        ))}
+                    </Marquee>
                 </div>
             </div>
         </div>

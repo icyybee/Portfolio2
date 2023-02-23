@@ -7,6 +7,11 @@
         margin-top: 2rem;
     }
 
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
     &__head {
         font-size: 2.8rem;
         color: $color-white;
@@ -44,6 +49,7 @@
         border-radius: 2rem;
         display: grid;
         place-items: center;
+        transition: all .2s ease;
 
         @media (max-width:$bp-largest) {
             width: 60%;
@@ -110,6 +116,7 @@
         text-align: center;
         transform: all 400ms ease;
         cursor: pointer;
+        transition: all .2s ease;
 
         &:hover {
             background: transparent;
@@ -135,5 +142,12 @@
         margin: 2rem 0 2.6rem;
         color: $color-grey-light-2;
         font-size: 1.8rem;
+    }
+
+    & .btn--full {
+    
+        @media (max-width: $bp-largest) {
+            align-self: center;
+        }
     }
 }

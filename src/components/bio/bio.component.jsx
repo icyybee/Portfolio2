@@ -23,7 +23,7 @@ const Bio = () => {
                         <div className='bio__cards'>
                             <WorkspacePremiumOutlinedIcon />
                             <h3>Experience</h3>
-                            <small>2+ years experience</small>
+                            <small>3 years experience</small>
                         </div>
                         <div className='bio__cards'>
                             <PeopleOutlinedIcon />
@@ -37,10 +37,7 @@ const Bio = () => {
                         </div>
                     </div>
                     <p className='bio__text'>
-                        Hello! I am Beatrice Egumandi, a Frontend Developer with a passion for creating visually appealing and user-friendly websites and applications that provide a great user experience.
-                        I am passionate about writing clean, well-structured and functional code. I am also a team player and enjoy working collaboratively on projects with colleagues.
-                        If you're looking for a Frontend Developer who is passionate about building great websites and applications, please don't hesitate to contact me.
-                        I look forward to hearing from you!
+                        Hey there! I'm Beatrice Egumandi, a Frontend Developer and Technical Writer. My goal is to merge the worlds of communication and technology by creating stunning websites and applications that not only look great but also effectively communicate your message. I love writing clean, functional code and collaborating with colleagues to achieve project success. When I'm not developing, you can find me crafting informative articles on various technical topics. If you're looking for a passionate Frontend Developer and Technical Writer to bring your ideas to life, let's chat!
                     </p>
                     <a href='#contact' className='btn btn--full'>Contact me</a>
                 </div>
