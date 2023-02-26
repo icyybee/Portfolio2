@@ -101,7 +101,7 @@ const Contact = () => {
                         </label>
                     </div>
 
-                    <div className="form__group">
+                    <div className="form__group form__last">
                         <button type='submit' className="btn btn--full contact-btn" value="Send Message">Send Message</button>
                     </div>
                 </form>

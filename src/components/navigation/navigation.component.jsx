@@ -21,7 +21,7 @@ const Navigation = () => {
             <WorkspacesOutlinedIcon className='nav__svg'/>
            </a>
            
-           <a href='#testimonial'>
+           <a href='#blog'>
             <StarBorderPurple500OutlinedIcon className='nav__svg'/>
            </a>
            

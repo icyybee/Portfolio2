@@ -71,14 +71,16 @@ h4 {
   font-size: 2rem;
 }
 
-//Buttons
-.btn {
+a {
+  text-decoration: none;
+}
+
+.btn  {
   padding: 1.4rem 5rem;
   display: block;
   border: 1px solid $color-primary-dark;
   width: fit-content;
   border-radius: 5px;
-  text-decoration: none;
   color: $color-white;
   letter-spacing: 1px;
   font-size: 1.5rem;
@@ -112,6 +114,10 @@ h4 {
 
   @media (max-width:$bp-largest) {
     width: 85%;
+  }
+ 
+  @media (min-width: 1025px) {
+    width: 90%;
   }
 
   @media (max-width:$bp-medium) {

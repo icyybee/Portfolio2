@@ -6,6 +6,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
+
     return (
         <footer className='footer'>
             <div className='footer__socials'>
@@ -23,7 +25,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className='footer__copyright'>
-                <small>&copy; Copyright 2022 by Beatrice Egumandi. All rights reserved</small>
+                <small>&copy; Copyright {year} by Beatrice Egumandi. All rights reserved</small>
             </div>
         </footer>
     )

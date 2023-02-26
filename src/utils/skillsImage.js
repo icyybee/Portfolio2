@@ -48,6 +48,7 @@ import pytorch from '../assets/skills/pytorch.svg'
 import react from '../assets/skills/react.svg'
 import redux from '../assets/skills/redux.svg'
 import ruby from '../assets/skills/ruby.svg'
+import sass from '../assets/skills/sass.svg'
 import selenium from '../assets/skills/selenium.svg'
 import strapi from '../assets/skills/strapi.svg'
 import svelte from '../assets/skills/svelte.svg'
@@ -193,6 +194,8 @@ export const skillsImage = (skill) => {
             return premierepro;
         case 'pytorch':
             return pytorch;
+        case 'sass':
+            return sass;
         case 'selenium':
             return selenium;
         case 'strapi':

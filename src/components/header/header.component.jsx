@@ -3,6 +3,7 @@ import './header.styles.scss';
 import Typed from 'react-typed';
 
 import Resume from '../../assets/Resume.pdf';
+import BasicButtons from '../buttons/buttons.component';
 
 const Header = () => {
     return (
@@ -28,13 +29,17 @@ const Header = () => {
                         loop
                     />
                     <div className='header__footer'>
-                        <a href={Resume} className='btn btn--ghost' download>Download CV</a>
-                        <a href='#contact' className='btn btn--full'>Contact Me</a>
-                    </div>
-                    <div className='scroll'>
-                        <a href='#bio'>Scroll Down</a>    
+                        <a href={Resume} download>
+                            <BasicButtons variant='outlined' text='Download CV' />
+                        </a>
+                        <a href='#contact'>
+                            <BasicButtons variant='contained' text='Contact Me' />
+                        </a>
                     </div>
                 </div> 
+                <div className='header__scroll'>
+                    <a href='#bio'>Scroll Down</a>    
+                </div>
             </div>
         </header>
     )

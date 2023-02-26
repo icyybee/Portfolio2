@@ -124,4 +124,15 @@
         visibility: hidden;
         transform: translateY(-4rem);
     }
+
+    &__last {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        & button {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

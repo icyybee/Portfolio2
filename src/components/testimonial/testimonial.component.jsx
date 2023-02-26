@@ -19,8 +19,22 @@ const Testimonial = () => {
             <h2 className='bio__head'>Testimonial</h2>
             <Swiper className='container testimonial__container'
                 modules={[Pagination, Autoplay]}
-                slidesPerView={1}
-                autoplay={{ delay: 3000 }}
+                spaceBetween={30}
+                slidesPerView={2}
+                breakpoints={{
+                    300: {
+                        slidesPerView: 1,
+                    },
+
+                    1030: {
+                        slidesPerView: 2
+                    }
+                }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                speed={1200}
                 pagination={{ clickable: true }}
             >
                 <SwiperSlide className='testimonial__slide'>
