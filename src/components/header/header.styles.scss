@@ -8,6 +8,10 @@
         padding: 2rem;
     }
 
+    @media (max-width: $bp-small) {
+        height: 85vh;
+    }
+
     &__container {
         height: 100%;
         position: relative;   
@@ -43,7 +47,6 @@
 
         @media (max-width: $bp-small) {
             width: 100%;
-            top: 55%;
         }
 
         & h1 {
