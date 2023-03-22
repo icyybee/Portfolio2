@@ -10,5 +10,6 @@ export const skillsData = [
     'Graphql',
     'MaterialUI',
     'Firebase',
-    'Apollo'
+    'Apollo',
+    'PWA'
 ]

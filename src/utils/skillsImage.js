@@ -43,6 +43,7 @@ import photoshop from '../assets/skills/photoshop.svg'
 import php from '../assets/skills/php.svg'
 import postgresql from '../assets/skills/postgresql.svg'
 import premierepro from '../assets/skills/premierepro.svg'
+import pwa from '../assets/skills/pwa.svg'
 import python from '../assets/skills/python.svg'
 import pytorch from '../assets/skills/pytorch.svg'
 import react from '../assets/skills/react.svg'
@@ -160,6 +161,8 @@ export const skillsImage = (skill) => {
             return php;
         case 'python':
             return python;
+        case 'pwa':
+            return pwa;
         case 'ruby':
             return ruby;
         case 'swift':

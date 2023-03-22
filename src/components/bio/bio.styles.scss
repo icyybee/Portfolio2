@@ -75,14 +75,9 @@
         & img {
             width: 100%;
             border-radius: 8px;
-            display: block;
             cursor: pointer;
             height: 100%;
             object-fit: cover;
-
-            @media (min-width: 1025px) {
-                display: none;
-            }
         }
 
         &--overlay {
@@ -174,5 +169,27 @@
 
     & .btn--full {
         align-self: center;    
+    }
+
+    &--lappy {
+        @media (min-width: 1025px) {
+            display: none;
+        }
+    }
+
+    &--lottie {
+        width: 100%;
+        padding: 2rem;
+        height: 45rem;
+        filter: hue-rotate(45deg);
+        opacity: .8;
+        
+        @media (max-width: 1200px) {
+            height: auto;
+        }
+        
+        @media (max-width: 1025px) {
+            display: none;
+        }
     }
 }
