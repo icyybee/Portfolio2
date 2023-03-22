@@ -8,8 +8,8 @@ export const blogData = [
         img: Blog1,
         name: 'The Ultimate Guide to Converting React Apps to Progressive Web Apps',
         date: 'Mar 11 2023',
-        views: 2798,
-        react: 70,
+        views: 2858,
+        react: 71,
         site: 'https://dev.to/icyybee/the-ultimate-guide-to-converting-react-apps-to-progressive-web-apps-1pnp'
     },
     {
