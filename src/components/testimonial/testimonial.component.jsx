@@ -12,6 +12,7 @@ import client1 from '../../assets/client1.jpg';
 import client2 from '../../assets/client2.jpg';
 import client3 from '../../assets/client3.jpg';
 import client4 from '../../assets/client4.jpg';
+import client5 from '../../assets/client5.jpg';
 
 const Testimonial = () => {
     return (
@@ -37,6 +38,18 @@ const Testimonial = () => {
                 speed={1200}
                 pagination={{ clickable: true }}
             >
+                <SwiperSlide className='testimonial__slide'>
+                    <div className='testimonial__card'>
+                        <div className='testimonial__img'>
+                            <img src={client5} alt='client5'/>
+                        </div>
+                        <h3>Daniel Ayeni</h3>
+                        <small className='review'>
+                            Beatrice is a hard working and committed developer! I've had the pleasure of working with her and can confidently say that she consistently delivers high-quality work on time. She's also a great team player and always willing to learn. Would highly recommend her!
+                        </small>
+                    </div>
+                </SwiperSlide>
+
                 <SwiperSlide className='testimonial__slide'>
                     <div className='testimonial__card'>
                         <div className='testimonial__img'>

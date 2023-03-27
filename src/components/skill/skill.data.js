@@ -11,5 +11,7 @@ export const skillsData = [
     'MaterialUI',
     'Firebase',
     'Apollo',
-    'PWA'
+    'PWA',
+    'Bootstrap',
+    'Tailwind'
 ]

@@ -16,16 +16,16 @@ const Portfolio = () => {
         {
             id: 1,
             img: Work1,
-            name: "CinemaEdge",
-            desc: "A Netflix Clone built with React, SASS and Firebase",
-            link: "https://cinema-edge.vercel.app"
+            name: "Bumble Social app",
+            desc: "A social media app built with React and SASS",
+            link: "https://lucky-tarsier-74c679.netlify.app/"
         },
         {
             id: 2,
             img: Work2,
-            name: "Bumble Social app",
-            desc: "A social media app built with React and SASS",
-            link: "https://lucky-tarsier-74c679.netlify.app/"
+            name: "Capstone",
+            desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
+            link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
         },
         {
             id: 3,
@@ -37,16 +37,16 @@ const Portfolio = () => {
         {
             id: 4,
             img: Work1,
-            name: "Royaute",
-            desc: "An auto rental website built with React and SASS",
-            link: "https://relaxed-meerkat-89f46e.netlify.app/"
+            name: "CinemaEdge",
+            desc: "A Netflix Clone built with React, SASS and Firebase",
+            link: "https://cinema-edge.vercel.app"
         },
         {
             id: 5,
             img: Work2,
-            name: "Capstone",
-            desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
-            link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
+            name: "Royaute",
+            desc: "An auto rental website built with React and SASS",
+            link: "https://relaxed-meerkat-89f46e.netlify.app/"
         },
         {
             id: 6,
