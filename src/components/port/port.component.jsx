@@ -76,7 +76,7 @@ const Portfolio = () => {
                     return (
                         <div className="work" key={item.id}>
                             <img src={item.img} alt="" />
-                            <div className="layer">
+                            <div className="layer new-layer">
                                 <h3>{item.name}</h3>
                                 <p>{item.desc}</p>
                                 <a href={item.link}>
