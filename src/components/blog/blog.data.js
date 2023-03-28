@@ -18,7 +18,7 @@ export const blogData = [
         img: Blog1,
         name: 'The Ultimate Guide to Converting React Apps to Progressive Web Apps',
         date: 'Mar 11 2023',
-        views: 2964,
+        views: 2965,
         react: 72,
         site: 'https://dev.to/icyybee/the-ultimate-guide-to-converting-react-apps-to-progressive-web-apps-1pnp'
     },
@@ -27,7 +27,7 @@ export const blogData = [
         img: Blog2,
         name: 'Creating an App with React, Apollo, and GraphQL: A Step-by-Step Guide to Fetching Data and Error Handling',
         date: 'Feb 18 2023',
-        views: 894,
+        views: 904,
         react: 37,
         site: 'https://dev.to/icyybee/creating-an-app-with-react-apollo-and-graphql-a-step-by-step-guide-to-fetching-data-and-error-handling-5bgh'
     },
