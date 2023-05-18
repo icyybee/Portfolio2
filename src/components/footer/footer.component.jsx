@@ -11,9 +11,9 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer__socials'>
-                <a href='https://www.facebook.com/julie.egumandi.7'>
+                {/* <a href='https://www.facebook.com/julie.egumandi.7'>
                     <FacebookIcon />
-                </a>
+                </a> */}
                 <a href='https://www.twitter.com/icyy_bee'>
                     <TwitterIcon />
                 </a>

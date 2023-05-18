@@ -12,6 +12,7 @@ export const skillsData = [
     'Firebase',
     'Apollo',
     'PWA',
+    'Next js',
     'Bootstrap',
     'Tailwind'
 ]
