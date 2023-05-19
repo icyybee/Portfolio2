@@ -12,7 +12,7 @@ export const blogData = [
         img: Blog7,
         name: 'Implementing UUIDs in React: Enhancing Performance and Security',
         date: 'May 17 2023',
-        views: 34,
+        views: 50,
         react: 2,
         site: 'https://icyybee.hashnode.dev/implementing-uuids-in-react-enhancing-performance-and-security'
     },
@@ -21,7 +21,7 @@ export const blogData = [
         img: Blog6,
         name: 'Customizing Tailwind CSS in Next.js: A Complete Guide',
         date: 'Mar 30 2023',
-        views: 433,
+        views: 443,
         react: 2,
         site: 'https://dev.to/icyybee/customizing-tailwind-css-in-nextjs-a-complete-guide-3jjp'
     },
@@ -48,7 +48,7 @@ export const blogData = [
         img: Blog1,
         name: 'The Ultimate Guide to Converting React Apps to Progressive Web Apps',
         date: 'Mar 11 2023',
-        views: 3225,
+        views: 3245,
         react: 75,
         site: 'https://dev.to/icyybee/the-ultimate-guide-to-converting-react-apps-to-progressive-web-apps-1pnp'
     },
