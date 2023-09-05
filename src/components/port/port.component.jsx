@@ -25,21 +25,21 @@ const Portfolio = () => {
             img: Work2,
             name: "Laundreo",
             desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
-            link: "https://laundreo.vercel.app/"
+            link: "https://www.laundreo.com/"
         },
         {
             id: 3,
             img: Work3,
             name: "Synergyy",
             desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
-            link: "https://syndash3.vercel.app/"
+            link: "https://www.synergyy.io/"
         },
         {
             id: 4,
             img: Work1,
             name: "Trxbe",
             desc: "A fashion E-commerce app built with React and SASS",
-            link: "https://trxbe.vercel.app/"
+            link: "https://www.trxbeluxury.com/"
         },
         {
             id: 5,
