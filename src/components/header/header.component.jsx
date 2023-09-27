@@ -3,7 +3,7 @@ import './header.styles.scss';
 
 import Typed from 'react-typed';
 
-import Resume from '../../assets/Resume.pdf';
+import Resume from '../../assets/BEATRICE_EGUMANDI_RESUME.pdf';
 import BasicButtons from '../buttons/buttons.component';
 
 const Header = () => {
