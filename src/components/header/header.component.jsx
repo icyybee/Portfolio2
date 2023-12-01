@@ -22,7 +22,7 @@ const Header = () => {
                         <h1>Beatrice Egumandi</h1>
                         <Typed
                             strings={[
-                                'Frontend Developer',
+                                'Frontend Software Developer',
                                 'Technical Writer'
                             ]}
                             typeSpeed={40}

@@ -20,6 +20,13 @@ const Portfolio = () => {
             desc: "This project was created during a hackathon challenge and is powered by React.js and Tailwind CSS",
             link: "https://hackathon-sepia.vercel.app/"
         },
+        // {
+        //     id: 2,
+        //     img: Work2,
+        //     name: "Fixtry",
+        //     desc: "A React-powered app built to revolutionize healthcare by enabling seamless consultations through video, audio, or chat. Built with Tailwind CSS and GraphQL for a secure and user-friendly experience.",
+        //     link: "https://vhp.heala.io/heala-hmo"
+        // },
         {
             id: 2,
             img: Work2,
@@ -30,30 +37,30 @@ const Portfolio = () => {
         {
             id: 3,
             img: Work3,
-            name: "Laundreo",
-            desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
-            link: "https://www.laundreo.com/"
-        },
-        {
-            id: 4,
-            img: Work1,
             name: "Synergyy",
             desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
             link: "https://www.synergyy.io/"
         },
         {
-            id: 5,
-            img: Work2,
+            id: 4,
+            img: Work1,
             name: "Trxbe",
             desc: "A fashion E-commerce app built with React and SASS",
             link: "https://www.trxbeluxury.com/"
         },
         {
-            id: 6,
-            img: Work3,
+            id: 5,
+            img: Work2,
             name: "Bumble Social app",
             desc: "A social media app built with React and SASS",
             link: "https://lucky-tarsier-74c679.netlify.app/"
+        },
+        {
+            id: 6,
+            img: Work3,
+            name: "Laundreo",
+            desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
+            link: "https://www.laundreo.com/"
         },
         {
             id: 7,

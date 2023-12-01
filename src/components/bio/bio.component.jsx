@@ -45,7 +45,7 @@ const Bio = () => {
                             </div>
                         </div>
                         <p className='bio__text'>
-                            Hey there! I'm Beatrice Egumandi, a Frontend Developer and Technical Writer. My goal is to merge the worlds of communication and technology by creating stunning websites and applications that not only look great but also effectively communicate your message. I love writing clean, functional code and collaborating with colleagues to achieve project success. When I'm not developing, you can find me crafting informative articles on various technical topics. If you're looking for a passionate Frontend Developer and Technical Writer to bring your ideas to life, let's chat!
+                            Hey there! I'm Beatrice Egumandi, a Frontend Software Developer and Technical Writer. My goal is to merge the worlds of communication and technology by creating stunning websites and applications that not only look great but also effectively communicate your message. I love writing clean, functional code and collaborating with colleagues to achieve project success. When I'm not developing, you can find me crafting informative articles on various technical topics. If you're looking for a passionate Frontend Developer and Technical Writer to bring your ideas to life, let's chat!
                         </p>
                         <a href='#contact' className='btn btn--full'>Contact me</a>
                     </div>
