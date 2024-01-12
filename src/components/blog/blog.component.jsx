@@ -45,7 +45,11 @@ const Blog = () => {
                     </Fade>
                 ))}
             </div>
-            {display === 4 ? ('') : (
+            {display === blogData.length ? (
+                <div className="port__btn">
+                    <BasicButtons text='View Less' variant='outlined' functions={() => setDisplay(3)} />
+                </div>
+            ) : (
                 <div className="port__btn">
                     <BasicButtons text='View More' variant='outlined' functions={handleDisplay} />
                 </div>

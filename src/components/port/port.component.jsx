@@ -55,55 +55,55 @@ const Portfolio = () => {
             desc: "A social media app built with React and SASS",
             link: "https://lucky-tarsier-74c679.netlify.app/"
         },
+        // {
+        //     id: 7,
+        //     img: Work1,
+        //     name: "Laundreo",
+        //     desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
+        //     link: "https://www.laundreo.com/"
+        // },
+        // {
+        //     id: 8,
+        //     img: Work2,
+        //     name: "Capstone",
+        //     desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
+        //     link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
+        // },
         {
             id: 7,
             img: Work1,
-            name: "Laundreo",
-            desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
-            link: "https://www.laundreo.com/"
-        },
-        {
-            id: 8,
-            img: Work2,
-            name: "Capstone",
-            desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
-            link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
-        },
-        {
-            id: 9,
-            img: Work3,
             name: "Empire properties",
             desc: "Real Housing website designed and coded by me using HTML, SASS and JavaScript",
             link: "https://symphonious-raindrop-11a4c9.netlify.app/"
         },
         {
-            id: 10,
-            img: Work1,
+            id: 8,
+            img: Work2,
             name: "CinemaEdge",
             desc: "A Netflix Clone built with React, SASS and Firebase",
             link: "https://cinema-edge.vercel.app"
         },
-        {
-            id: 11,
-            img: Work2,
-            name: "Royaute",
-            desc: "An auto rental website built with React and SASS",
-            link: "https://www.rautorentals.com/"
-        },
-        {
-            id: 12,
-            img: Work3,
-            name: "Fudlist",
-            desc: "A Food app landing page website designed and coded by me using HTML, SASS and React",
-            link: "https://deluxe-snickerdoodle-ccb584.netlify.app/"
-        },
-        {
-            id: 13,
-            img: Work1,
-            name: "MANdiz Honey",
-            desc: "Upscale Honey E-commerce website designed and coded by me using HTML, SASS and JavaScript",
-            link:"https://ornate-lollipop-f291fd.netlify.app"
-        }
+        // {
+        //     id: 11,
+        //     img: Work2,
+        //     name: "Royaute",
+        //     desc: "An auto rental website built with React and SASS",
+        //     link: "https://www.rautorentals.com/"
+        // },
+        // {
+        //     id: 12,
+        //     img: Work3,
+        //     name: "Fudlist",
+        //     desc: "A Food app landing page website designed and coded by me using HTML, SASS and React",
+        //     link: "https://deluxe-snickerdoodle-ccb584.netlify.app/"
+        // },
+        // {
+        //     id: 13,
+        //     img: Work1,
+        //     name: "MANdiz Honey",
+        //     desc: "Upscale Honey E-commerce website designed and coded by me using HTML, SASS and JavaScript",
+        //     link:"https://ornate-lollipop-f291fd.netlify.app"
+        // }
     ]
 
     const handleDisplay = () => {
@@ -129,7 +129,11 @@ const Portfolio = () => {
                     )
                 })}
             </div>
-            {display === 7 ? ('') : (
+            {display === work.length ? (
+                <div className="port__btn">
+                    <BasicButtons text='View Less' variant='outlined' functions={() => setDisplay(3)} />
+                </div>
+            ) : (
                 <div className="port__btn">
                     <BasicButtons text='View More' variant='outlined' functions={handleDisplay} />
                 </div>

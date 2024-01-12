@@ -14,5 +14,6 @@ export const skillsData = [
     'PWA',
     'Next js',
     'Bootstrap',
-    'Tailwind'
+    'Tailwind',
+    'Typescript'
 ]

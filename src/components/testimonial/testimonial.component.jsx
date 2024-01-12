@@ -84,7 +84,7 @@ const Testimonial = () => {
                         <div className='testimonial__img'>
                             <img src={client4} alt='client3'/>
                         </div>
-                        <h3>Marvin Molokwu</h3>
+                        <h3>Ola Simon</h3>
                         <small className='review'>
                             Was lucky to have Beatrice as our developer. She was able to take our designs and turn them into a fully functional website. 
                             Her attention to detail and ability to think outside the box helped us to create a website that met our needs and exceeded our expectations. 
