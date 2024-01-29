@@ -16,17 +16,24 @@ const Portfolio = () => {
         {
             id: 1,
             img: Work1,
-            name: "getLinked",
-            desc: "This project was created during a hackathon challenge and is powered by React.js and Tailwind CSS",
-            link: "https://hackathon-sepia.vercel.app/"
+            name: "Geegpay",
+            desc: "This project was created during a hackathon challenge and is powered by NextJs, Typescript and Tailwind CSS",
+            link: "https://geegpay-two.vercel.app/"
         },
         {
             id: 2,
             img: Work2,
-            name: "Onvail",
-            desc: "Boost your visibility as an emerging artist - powered by React",
-            link: "https://www.onvailmusic.com"
+            name: "getLinked",
+            desc: "This project was created during a hackathon challenge and is powered by React.js and Tailwind CSS",
+            link: "https://hackathon-sepia.vercel.app/"
         },
+        // {
+        //     id: 3,
+        //     img: Work3,
+        //     name: "Onvail",
+        //     desc: "Boost your visibility as an emerging artist - powered by React",
+        //     link: "https://www.onvailmusic.com"
+        // },
         {
             id: 3,
             img: Work3,
@@ -55,13 +62,13 @@ const Portfolio = () => {
             desc: "A social media app built with React and SASS",
             link: "https://lucky-tarsier-74c679.netlify.app/"
         },
-        // {
-        //     id: 7,
-        //     img: Work1,
-        //     name: "Laundreo",
-        //     desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
-        //     link: "https://www.laundreo.com/"
-        // },
+        {
+            id: 7,
+            img: Work1,
+            name: "Laundreo",
+            desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
+            link: "https://www.laundreo.com/"
+        },
         // {
         //     id: 8,
         //     img: Work2,
@@ -70,15 +77,15 @@ const Portfolio = () => {
         //     link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
         // },
         {
-            id: 7,
-            img: Work1,
+            id: 8,
+            img: Work2,
             name: "Empire properties",
             desc: "Real Housing website designed and coded by me using HTML, SASS and JavaScript",
             link: "https://symphonious-raindrop-11a4c9.netlify.app/"
         },
         {
-            id: 8,
-            img: Work2,
+            id: 9,
+            img: Work3,
             name: "CinemaEdge",
             desc: "A Netflix Clone built with React, SASS and Firebase",
             link: "https://cinema-edge.vercel.app"
