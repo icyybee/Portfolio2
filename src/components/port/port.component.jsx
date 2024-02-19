@@ -23,48 +23,55 @@ const Portfolio = () => {
         {
             id: 2,
             img: Work2,
+            name: "Shadowticks",
+            desc: "Send and receive anonymous messages powered by ReactJs, Firebase and Tailwind CSS",
+            link: "https://shadow-tick.vercel.app"
+        },
+        {
+            id: 3,
+            img: Work3,
             name: "getLinked",
             desc: "This project was created during a hackathon challenge and is powered by React.js and Tailwind CSS",
             link: "https://hackathon-sepia.vercel.app/"
         },
-        // {
-        //     id: 3,
-        //     img: Work3,
-        //     name: "Onvail",
-        //     desc: "Boost your visibility as an emerging artist - powered by React",
-        //     link: "https://www.onvailmusic.com"
-        // },
-        {
-            id: 3,
-            img: Work3,
-            name: "Rocfela",
-            desc: "A technology company offering app and software design services, powered by Next.js and Tailwind CSS",
-            link: "https://rocfela.vercel.app/"
-        },
         {
             id: 4,
             img: Work1,
-            name: "Synergyy",
-            desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
-            link: "https://www.synergyy.io/"
+            name: "Onvail",
+            desc: "Boost your visibility as an emerging artist - powered by React",
+            link: "https://www.onvailmusic.com"
         },
         {
             id: 5,
             img: Work2,
+            name: "Rocfela",
+            desc: "A technology company offering app and software design services, powered by Next.js and Tailwind CSS",
+            link: "https://rocfela.vercel.app/"
+        },
+        // {
+        //     id: 4,
+        //     img: Work1,
+        //     name: "Synergyy",
+        //     desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
+        //     link: "https://www.synergyy.io/jobs"
+        // },
+        {
+            id: 6,
+            img: Work3,
             name: "Trxbe",
             desc: "A fashion E-commerce app built with React and SASS",
             link: "https://www.trxbeluxury.com/"
         },
         {
-            id: 6,
-            img: Work3,
+            id: 7,
+            img: Work1,
             name: "Bumble Social app",
             desc: "A social media app built with React and SASS",
             link: "https://lucky-tarsier-74c679.netlify.app/"
         },
         {
-            id: 7,
-            img: Work1,
+            id: 8,
+            img: Work2,
             name: "Laundreo",
             desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
             link: "https://www.laundreo.com/"
@@ -77,15 +84,15 @@ const Portfolio = () => {
         //     link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
         // },
         {
-            id: 8,
-            img: Work2,
+            id: 9,
+            img: Work3,
             name: "Empire properties",
-            desc: "Real Housing website designed and coded by me using HTML, SASS and JavaScript",
+            desc: "Real Housing website designed and built using HTML, SASS and JavaScript",
             link: "https://symphonious-raindrop-11a4c9.netlify.app/"
         },
         {
-            id: 9,
-            img: Work3,
+            id: 10,
+            img: Work1,
             name: "CinemaEdge",
             desc: "A Netflix Clone built with React, SASS and Firebase",
             link: "https://cinema-edge.vercel.app"
