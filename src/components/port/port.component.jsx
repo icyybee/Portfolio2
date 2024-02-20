@@ -48,13 +48,6 @@ const Portfolio = () => {
             desc: "A technology company offering app and software design services, powered by Next.js and Tailwind CSS",
             link: "https://rocfela.vercel.app/"
         },
-        // {
-        //     id: 4,
-        //     img: Work1,
-        //     name: "Synergyy",
-        //     desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
-        //     link: "https://www.synergyy.io/jobs"
-        // },
         {
             id: 6,
             img: Work3,
@@ -76,13 +69,6 @@ const Portfolio = () => {
             desc: "A convenient laundry service app built with React and styled using Tailwind CSS",
             link: "https://www.laundreo.com/"
         },
-        // {
-        //     id: 8,
-        //     img: Work2,
-        //     name: "Capstone",
-        //     desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
-        //     link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
-        // },
         {
             id: 9,
             img: Work3,
@@ -97,6 +83,20 @@ const Portfolio = () => {
             desc: "A Netflix Clone built with React, SASS and Firebase",
             link: "https://cinema-edge.vercel.app"
         },
+        // {
+        //     id: 4,
+        //     img: Work1,
+        //     name: "Synergyy",
+        //     desc: "Synergyy: Where young talent discovers job opportunities, fosters work connections, and turns big dreams into reality. Crafted with React and styled using Tailwind CSS",
+        //     link: "https://www.synergyy.io/jobs"
+        // },
+        // {
+        //     id: 8,
+        //     img: Work2,
+        //     name: "Capstone",
+        //     desc: "An E-commerce app built with React, Redux, Hooks and Firebase",
+        //     link: "https://eloquent-frangipane-8c0ad3.netlify.app/"
+        // },
         // {
         //     id: 11,
         //     img: Work2,
