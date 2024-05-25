@@ -37,23 +37,23 @@ const Portfolio = () => {
         {
             id: 4,
             img: Work1,
+            name: "Bank Kata",
+            desc: "This project was created using NextJs and Typescript and styled with Tailwind to represent a simple banking system functionality",
+            link: "https://kata-henna.vercel.app"
+        },
+        {
+            id: 5,
+            img: Work2,
             name: "Onvail",
             desc: "Boost your visibility as an emerging artist - powered by React",
             link: "https://www.onvailmusic.com"
         },
         {
-            id: 5,
-            img: Work2,
+            id: 6,
+            img: Work3,
             name: "Rocfela",
             desc: "A technology company offering app and software design services, powered by Next.js and Tailwind CSS",
             link: "https://rocfela.vercel.app/"
-        },
-        {
-            id: 6,
-            img: Work3,
-            name: "Trxbe",
-            desc: "A fashion E-commerce app built with React and SASS",
-            link: "https://www.trxbeluxury.com/"
         },
         {
             id: 7,
@@ -76,13 +76,13 @@ const Portfolio = () => {
             desc: "Real Housing website designed and built using HTML, SASS and JavaScript",
             link: "https://symphonious-raindrop-11a4c9.netlify.app/"
         },
-        {
-            id: 10,
-            img: Work1,
-            name: "CinemaEdge",
-            desc: "A Netflix Clone built with React, SASS and Firebase",
-            link: "https://cinema-edge.vercel.app"
-        },
+        // {
+        //     id: 10,
+        //     img: Work1,
+        //     name: "CinemaEdge",
+        //     desc: "A Netflix Clone built with React, SASS and Firebase",
+        //     link: "https://cinema-edge.vercel.app"
+        // },
         // {
         //     id: 4,
         //     img: Work1,
